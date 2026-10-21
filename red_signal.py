@@ -48,13 +48,6 @@
 ‎        print("\n[!] বের হয়ে যাওয়া হচ্ছে...")
 ‎        sys.exit()
 ‎
-‎if __name__ == '__main__':
-‎    main()
-‎
-‎import os
-‎import sys
-‎import time
-‎
 ‎# টার্মিনাল ক্লিয়ার করার ফাংশন
 ‎def clear():
 ‎    os.system('cls' if os.name == 'nt' else 'clear')
